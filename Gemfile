@@ -167,6 +167,8 @@ end
 
 # Multitenancy
 gem 'acts_as_tenant'
+# Limit version of request_store as it is producing random errors in CI
+gem 'request_store', '~> 1.3'
 
 # Internationalization
 gem 'http_accept_language'
